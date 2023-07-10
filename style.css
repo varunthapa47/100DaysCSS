@@ -1,6 +1,25 @@
-a{
+
+.container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+}
+
+a{
     margin: 10px;
-    justify-content: space-between;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 50px;
+    border: 2px solid red;
+    border-radius:  4px;
+}
+
+a:hover{
+    background-color: rgb(143, 255, 255);
+    color: red;
 }
